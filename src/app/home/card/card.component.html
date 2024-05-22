@@ -1,0 +1,37 @@
+<div class="p-2 border-round-xl" style="background: var(--style-cards-bg); backgroundBlendMode: normal, color-dodge; width: 380px;">
+    <div class="content p-2 h-full relative bg-cover bg-no-repeat bg-center border-round-xl shadow-1 flex flex-column justify-content-end" style="background: url('./../../assets/bg1.gif'); backgroundBlendMode: color-dodge, normal, normal; minHeight: 385px;">
+        <div class="content-info mt-2 border-round-sm bg-white-alpha-20 border-1 border-round-lg" style="backdropFilter: blur(27px); borderColor: rgba(255, 255, 255, 0.2);">
+            <div class="flex align-items-center justify-content-between py-2 px-3 border-bottom-1" style="borderColor: rgba(255, 255, 255, 0.2);">
+                <span class="font-medium text-blue-800">Gabriel Melo</span>
+                <i class="pi pi-verified text-blue-800"></i>
+            </div>
+            <div class="flex align-items-center justify-content-between py-2 px-3 gap-2 border-bottom-1" style="borderColor: rgba(255, 255, 255, 0.2);">
+                <div class="flex align-items-center gap-2">
+                    <i class="pi pi-star-fill text-blue-800"></i>
+                    <span class="font-small text-blue-800 white-space-nowrap">Software Engineer</span>
+                </div>
+            </div>
+            <div class="flex align-items-center justify-content-between py-2 px-3 gap-2 border-bottom-1" style="borderColor: rgba(255, 255, 255, 0.2);">
+                <div class="flex align-items-center gap-2">
+                    <i class="pi pi-user text-blue-800"></i>
+                    <span class="font-small text-blue-800 white-space-nowrap">Fundador da GABCMELO IT</span>
+                </div>
+            </div>
+        </div>
+        <div class="flex align-items-center justify-content-center pt-2 gap-2">
+         
+            <button (click)="sendTo(linkedin)" class="p-3 flex align-items-center justify-content-center w-7 gap-2 border-round-sm bg-white-alpha-10 shadow-1 border-1 cursor-pointer hover:bg-white-alpha-20 transition-duration-200" style="backdropFilter: blur(27px); borderColor: rgba(255, 255, 255, 0.2);">
+                <span class="font-medium text-white white-space-nowrap">Linkedin</span>
+                <i class="pi pi-linkedin text-white"></i>
+            </button>
+            <button (click)="sendTo(facebook)" class="p-3 flex align-items-center justify-content-center w-7 gap-2 border-round-sm bg-white-alpha-10 shadow-1 border-1 cursor-pointer hover:bg-white-alpha-20 transition-duration-200" style="backdropFilter: blur(27px); borderColor: rgba(255, 255, 255, 0.2);">
+                <span class="font-medium text-white white-space-nowrap">Facebook</span>
+                <i class="pi pi-facebook text-white"></i>
+            </button>
+            <button (click)="sendTo(github)" class="p-3 flex align-items-center justify-content-center w-5 gap-2 bg-blue-500 shadow-1 border-round-sm border-none cursor-pointer hover:bg-blue-600 transition-duration-200">
+                <span class="font-medium text-white white-space-nowrap">Github</span>
+                <i class="pi pi-github text-white"></i>
+            </button>
+        </div>
+    </div>
+</div>
