@@ -14,12 +14,15 @@
   --e-global-color-c35a632: #3366FF;
     --font-family: "JetBrains Mono", monospace;
   }
+  body {
+    margin: 0;
+  }
 
 html, body { 
   height: 100%; 
+  
 }
   .body-container{
-    margin: 0;
     font-family: var(--font-family);
     background: var(--surface-ground);
     color: var(--text-color);

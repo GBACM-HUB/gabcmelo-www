@@ -7,6 +7,8 @@ import { MenuModule } from 'primeng/menu';
 import { PanelModule } from 'primeng/panel';
 import { BadgeModule } from 'primeng/badge';
 import { CardComponent } from "./card/card.component";
+import { AnimateOnScrollModule } from 'primeng/animateonscroll';
+import { BannerComponent } from "../banner/banner.component";
 
 @Component({
     selector: 'app-home',
@@ -14,8 +16,11 @@ import { CardComponent } from "./card/card.component";
     templateUrl: './home.component.html',
     styleUrl: './home.component.css',
     imports: [
+        AvatarModule,
         CommonModule,
-        CardComponent
+        CardComponent,
+        AnimateOnScrollModule,
+        BannerComponent
     ]
 })
 export class HomeComponent {
