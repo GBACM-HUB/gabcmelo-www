@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './card.component.css'
 })
 export class CardComponent {
-linkedin: string = "https://www.linkedin.com/company/gabcmelo-it-solutions/";
+linkedin: string = "https://www.linkedin.com/company/gbcm-it-solutions/";
 facebook: string = "https://www.facebook.com/profile.php?viewas=100000686899395&id=61559907663147";
 github: string = "https://github.com/GBACM-HUB";
 

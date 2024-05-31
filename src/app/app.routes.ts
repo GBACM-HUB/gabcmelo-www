@@ -6,6 +6,6 @@ export const routes: Routes = [
   {
     path: 'home',
     component: HomeComponent,
-    data: { title: 'BCM IT by GABCMELO' },
+    data: { title: 'BCM IT by gbcm' },
   },
 ];

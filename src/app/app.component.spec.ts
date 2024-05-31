@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'gabcmelo-www' title`, () => {
+  it(`should have the 'gbcm-www' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('gabcmelo-www');
+    expect(app.title).toEqual('gbcm-www');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, gabcmelo-www');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, gbcm-www');
   });
 });
